@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
+import Button from '../elements/Button';
 
 const propTypes = {
   active: PropTypes.bool,
@@ -121,7 +122,7 @@ class Header extends React.Component {
                         navPosition && `header-nav-${navPosition}`
                       )}>
                       <li>
-                        <Link to="/secondary/" onClick={this.closeMenu}>Secondary page</Link>
+                        {/* <Link to="/secondary/" onClick={this.closeMenu}>Secondary page</Link> */}
                       </li>
                     </ul>
                     {!hideSignin &&
@@ -129,7 +130,10 @@ class Header extends React.Component {
                         className="list-reset header-nav-right"
                       >
                         <li>
-                          <Link to="/signup/" className="button button-primary button-wide-mobile button-sm" onClick={this.closeMenu}>Sign up</Link>
+                          {/* <Link to="/signup/" className="button button-primary button-wide-mobile button-sm" onClick={this.closeMenu}>Sign up</Link> */}
+                          <Button tag="a" color="primary" href="https://app.flipx.io/" wideMobile>
+                            Sign Up
+                          </Button>
                         </li>
                       </ul>}
                   </div>

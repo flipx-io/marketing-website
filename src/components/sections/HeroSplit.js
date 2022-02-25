@@ -70,13 +70,13 @@ class HeroSplit extends React.Component {
               <div className="split-item" style={inlineStyle()}>
                 <div className="hero-content split-item-content center-content-mobile">
                   <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="150">
-                    Landing template for startups
+                      Flip homes from home
                   </h1>
                   <p className="mt-0 mb-32 reveal-from-bottom" data-reveal-delay="300">
-                    Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
+                    FlipX elimantes the barriers to entry for home flipping, and allows you to scale your business exponentially.
                   </p>
                   <div className="reveal-from-bottom" data-reveal-delay="450">
-                    <Button tag="a" color="primary" href="https://cruip.com/" wideMobile>
+                    <Button tag="a" color="primary" href="https://app.flipx.io/" wideMobile>
                       Get started now
                     </Button>
                   </div>
