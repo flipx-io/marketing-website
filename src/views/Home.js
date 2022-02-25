@@ -3,10 +3,10 @@ import React from 'react';
 import SectionHeader from '../components/sections/partials/SectionHeader';
 // import sections
 import HeroSplit from '../components/sections/HeroSplit';
-import Clients from '../components/sections/Clients';
+// import Clients from '../components/sections/Clients';
 import GenericSection from '../components/sections/GenericSection';
-import FeaturesTiles from '../components/sections/FeaturesTiles';
-import Testimonial from '../components/sections/Testimonial';
+// import FeaturesTiles from '../components/sections/FeaturesTiles';
+// import Testimonial from '../components/sections/Testimonial';
 import Cta from '../components/sections/Cta';
 // import some required elements
 import Image from '../components/elements/Image';
@@ -31,28 +31,23 @@ class Home extends React.Component {
 
     const genericSection01Header = {
       title: 'Built exclusively for you',
-      paragraph: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint — occaecat cupidatat non proident, sunt in culpa qui.'
+      paragraph: 'First all in one fix and flip tech solution, Zero Down payment, Fast close, No experience required,  No project management skills required, Unlimited deal count, Any location and faster project completion. '
     }
 
     return (
       <React.Fragment>
         <HeroSplit className="illustration-section-01" />
-        <Clients topDivider bottomDivider />
+        {/* <Clients topDivider bottomDivider /> */}
         <GenericSection topDivider className="center-content">
           <SectionHeader data={genericSection01Header} className="reveal-from-bottom" />
           <div className="reveal-from-bottom">
-            <a
-              data-video="https://player.vimeo.com/video/174002812"
-              href="#0"
-              aria-controls="video-modal"
-              onClick={this.openModal}
-            >
+
               <Image
-                src={require('./../assets/images/video-placeholder.svg')}
+                src={require('./../assets/images/website.png')}
                 alt="Video"
                 width={712}
                 height={400} />
-            </a>
+
           </div>
           <Modal
             id="video-modal"
@@ -61,8 +56,8 @@ class Home extends React.Component {
             video="https://player.vimeo.com/video/174002812"
             videoTag="iframe" />
         </GenericSection>         
-        <FeaturesTiles topDivider className="center-content" />
-        <Testimonial topDivider />  
+        {/* <FeaturesTiles topDivider className="center-content" /> */}
+        {/* <Testimonial topDivider />   */}
         <Cta split />
       </React.Fragment>
     );
