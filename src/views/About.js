@@ -2,7 +2,7 @@ import React from 'react';
 import GenericSection from '../components/sections/GenericSection';
 import SectionHeader from '../components/sections/partials/SectionHeader';
 import Cta from '../components/sections/Cta';
-import Image from '../components/elements/Image';
+// import Image from '../components/elements/Image';
 
 class About extends React.Component {
   render() {
