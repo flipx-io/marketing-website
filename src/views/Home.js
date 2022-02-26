@@ -5,7 +5,7 @@ import SectionHeader from '../components/sections/partials/SectionHeader';
 import HeroSplit from '../components/sections/HeroSplit';
 // import Clients from '../components/sections/Clients';
 import GenericSection from '../components/sections/GenericSection';
-// import FeaturesTiles from '../components/sections/FeaturesTiles';
+import FeaturesTiles from '../components/sections/FeaturesTiles';
 // import Testimonial from '../components/sections/Testimonial';
 import Cta from '../components/sections/Cta';
 // import some required elements
@@ -56,7 +56,7 @@ class Home extends React.Component {
             video="https://player.vimeo.com/video/174002812"
             videoTag="iframe" />
         </GenericSection>         
-        {/* <FeaturesTiles topDivider className="center-content" /> */}
+        <FeaturesTiles topDivider className="center-content" />
         {/* <Testimonial topDivider />   */}
         <Cta split />
       </React.Fragment>
