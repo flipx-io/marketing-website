@@ -73,7 +73,7 @@ class HeroSplit extends React.Component {
                       Flip homes from home
                   </h1>
                   <p className="mt-0 mb-32 reveal-from-bottom" data-reveal-delay="300">
-                    FlipX elimantes the barriers to entry for home flipping, and allows you to scale your business exponentially.
+                    Flip<sup>x</sup> elimantes the barriers to entry for home flipping, and allows you to scale your business exponentially.
                   </p>
                   <div className="reveal-from-bottom" data-reveal-delay="450">
                     <Button tag="a" color="primary" href="https://app.flipx.io/" wideMobile>
