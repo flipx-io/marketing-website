@@ -49,8 +49,8 @@ class FeaturesTiles extends React.Component {
     );
 
     const sectionHeader = {
-      title: 'Build up the whole picture',
-      paragraph: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint — occaecat cupidatat non proident, sunt in culpa qui.'
+      title: 'Flipx homes from homes',
+      paragraph: ''
     };
 
     return (
@@ -68,18 +68,18 @@ class FeaturesTiles extends React.Component {
                   <div className="features-tiles-item-header">
                     <div className="features-tiles-item-image mb-16">
                       <Image
-                        src={require('./../../assets/images/feature-tile-icon-01.svg')}
+                        src={require('./../../assets/images/money.svg')}
                         alt="Features tile icon 01"
-                        width={72}
-                        height={72} />
+                        width={82}
+                        height={82} />
                     </div>
                   </div>
                   <div className="features-tiles-item-content">
                     <h4 className="mt-0 mb-8">
-                      Generate Leads
+                      Zero down
                     </h4>
                     <p className="m-0 text-sm">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                      No money down. Use that money instead towards your next property.
                     </p>
                   </div>
                 </div>
@@ -90,24 +90,24 @@ class FeaturesTiles extends React.Component {
                   <div className="features-tiles-item-header">
                     <div className="features-tiles-item-image mb-16">
                       <Image
-                        src={require('./../../assets/images/feature-tile-icon-02.svg')}
+                        src={require('./../../assets/images/engineering.svg')}
                         alt="Features tile icon 02"
-                        width={72}
-                        height={72} />
+                        width={82}
+                        height={82} />
                     </div>
                   </div>
                   <div className="features-tiles-item-content">
                     <h4 className="mt-0 mb-8">
-                      Generate Leads
+                      Fast close
                     </h4>
                     <p className="m-0 text-sm">
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
+                      We are a technology company. Our engineering mindset allows us to achieve faster closing compared to traditional real estate lenders.
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="tiles-item reveal-from-right">
+              {/* <div className="tiles-item reveal-from-right">
                 <div className="tiles-item-inner">
                   <div className="features-tiles-item-header">
                     <div className="features-tiles-item-image mb-16">
@@ -120,7 +120,7 @@ class FeaturesTiles extends React.Component {
                   </div>
                   <div className="features-tiles-item-content">
                     <h4 className="mt-0 mb-8">
-                      Generate Leads
+                      No project man
                     </h4>
                     <p className="m-0 text-sm">
                       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
@@ -149,8 +149,8 @@ class FeaturesTiles extends React.Component {
                     </p>
                   </div>
                 </div>
-              </div>
-
+              </div> */}
+{/* 
               <div className="tiles-item reveal-from-right">
                 <div className="tiles-item-inner">
                   <div className="features-tiles-item-header">
@@ -193,7 +193,7 @@ class FeaturesTiles extends React.Component {
                     </p>
                   </div>
                 </div>
-              </div>              
+              </div>               */}
 
             </div>
           </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
 import Button from '../elements/Button';
 
@@ -122,7 +122,7 @@ class Header extends React.Component {
                         navPosition && `header-nav-${navPosition}`
                       )}>
                       <li>
-                        {/* <Link to="/secondary/" onClick={this.closeMenu}>Secondary page</Link> */}
+                        <Link to="/about-us/" onClick={this.closeMenu}>About Us</Link>
                       </li>
                     </ul>
                     {!hideSignin &&

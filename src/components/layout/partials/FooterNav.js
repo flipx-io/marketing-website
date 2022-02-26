@@ -24,12 +24,6 @@ const FooterNav = ({
         <li>
           <Link to="/about-us/">About us</Link>
         </li>
-        <li>
-          <Link to="/faqs/">FAQ's</Link>
-        </li>
-        <li>
-          <Link to="/support/">Support</Link>
-        </li>
       </ul>
     </nav>
   );
