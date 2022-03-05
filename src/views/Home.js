@@ -31,7 +31,7 @@ class Home extends React.Component {
 
     const genericSection01Header = {
       title: 'Built exclusively for you',
-      paragraph: 'First all in one fix and flip tech solution, Zero Down payment, Fast close, No experience required,  No project management skills required, Unlimited deal count, Any location and faster project completion. '
+      paragraph: 'First all in one fix and flip tech solution, zero down payment, fast close, no experience required,  no project management skills required, unlimited deal count, any location and faster project completion. '
     }
 
     return (

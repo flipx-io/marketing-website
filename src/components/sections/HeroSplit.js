@@ -70,10 +70,10 @@ class HeroSplit extends React.Component {
               <div className="split-item" style={inlineStyle()}>
                 <div className="hero-content split-item-content center-content-mobile">
                   <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="150">
-                      Flip homes from home
+                      Flip homes from the comfort of your home
                   </h1>
                   <p className="mt-0 mb-32 reveal-from-bottom" data-reveal-delay="300">
-                    Flip<sup>x</sup> elimantes the barriers to entry for home flipping, and allows you to scale your business exponentially.
+                    Flip<sup>x</sup> eliminates the barriers to entry for home flipping and allows you to scale your business exponentially.
                   </p>
                   <div className="reveal-from-bottom" data-reveal-delay="450">
                     <Button tag="a" color="primary" href="https://app.flipx.io/" wideMobile>
