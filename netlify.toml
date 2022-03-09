@@ -1,5 +1,11 @@
 [[redirects]]
+  from = "/jobs"
+  to = "/jobs"
+[[redirects]]
   from = "/*"
-  to = "/index.htlm"
+  to = "/"
+[[redirects]]
+  from = "/about-us"
+  to = "/about-us"
 [build.environment]
   NODE_VERSION = "v14.9.0"
