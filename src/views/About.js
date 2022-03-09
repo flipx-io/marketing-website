@@ -26,6 +26,7 @@ class About extends React.Component {
         </GenericSection>
           <FeaturesSplit topDivider className="center-content" />
           {/* <Team /> */}
+          
         <Cta topDivider split />
       </React.Fragment>
       
