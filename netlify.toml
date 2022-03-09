@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/*"
+  to = "/index"
+[build.environment]
+  NODE_VERSION = "v14.9.0"
