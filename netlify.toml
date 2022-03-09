@@ -1,5 +1,8 @@
 [[redirects]]
   from = "/*"
   to = "/index"
+[[redirects]]
+  from = "/*/jobs/"
+  to = "/index/jobs/"
 [build.environment]
   NODE_VERSION = "v14.9.0"
