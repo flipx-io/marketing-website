@@ -1,7 +1,4 @@
 [[redirects]]
-  from = "/*/jobs/"
-  to = "/jobs/"
-[[redirects]]
   from = "/*"
   to = "/index"
 [build.environment]
