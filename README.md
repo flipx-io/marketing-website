@@ -7,8 +7,12 @@
 <img src="/static/img/logo_full.svg" alt="drawing" width="400"/>
 </p>
 
+## Overiview
+
+This project is based on [Cruip.com](https://cruip.com/) web templates. To learn more about the Cruip templates and available components, visit the Cruip CSS documentation [site](https://cruip.com/docs/react-templates/).
+
 ## Semantic Release
-This project follows [semantic release](https://github.com/semantic-release/semantic-release).  Semantic release is enforced through git commit hooks (Husky). Commit messages that do not follow the Angular commit convention will be `REJECTED`.
+This project follows [semantic release](https://github.com/semantic-release/semantic-release).  Semantic release is enforced through git commit hooks (Husky). Commit messages that do not follow the Angular commit convention will be `REJECTED`. For a list of allowed commits, see [config-conventional rules](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-conventional)
 
 Here is an example of the release type that will be done based on a commit messages:
 
