@@ -1,7 +1,27 @@
 {
-  "name": "neon-react",
+  "name": "marketing-website",
   "version": "0.1.0",
   "private": true,
+  "husky": {
+		"hooks": {
+			"commit-msg": "commitlint -E  HUSKY_GIT_PARAMS"
+		}
+	},
+	"commitlint": {
+		"extends": [
+			"@commitlint/config-conventional"
+		],
+		"rules": {
+			"subject-case": [
+				2,
+				"never",
+				[
+					"start-case",
+					"pascal-case"
+				]
+			]
+		}
+	},
   "dependencies": {
     "@typeform/embed-react": "^1.9.0",
     "classnames": "^2.2.6",
@@ -10,7 +30,12 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1"
+    "react-scripts": "3.1.1",
+		"@commitlint/config-conventional": "^11.0.0",
+		"@semantic-release/git": "^9.0.0",
+		"commitlint": "^11.0.0",
+		"husky": "^4.3.0",
+		"standard-version": "^9.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
