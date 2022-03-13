@@ -44,7 +44,7 @@ class Home extends React.Component {
 
               <Image
                 src={require('./../assets/images/website.png')}
-                alt="Video"
+                alt="Computer screen"
                 width={712}
                 height={400} />
 
