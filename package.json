@@ -34,7 +34,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test-e2e": "./node_modules/.bin/cucumber-js test/ --exit",
+    "test-e2e": "./node_modules/.bin/cucumber-js tests/ --exit",
     "eject": "react-scripts eject",
     "prepare": "husky install"
   },
