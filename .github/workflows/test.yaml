@@ -12,4 +12,4 @@ jobs:
         with:
           node-version: '14'
       - run: npm install -v
-      - run: echo 'charlies first pipeline'
+      - run: npm run test
