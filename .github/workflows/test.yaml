@@ -31,4 +31,4 @@ jobs:
       - name: Test Code
         uses: mujo-code/puppeteer-headful@12.3.1
         with:
-          args: npm run test-e2e
+          args: npm test-e2e
