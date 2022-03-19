@@ -34,7 +34,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-          npm install
+          npm ci --only=production --ignore-scripts
           npm install @semantic-release/exec -D
           npm install @semantic-release/changelog -D
           npm install @semantic-release/github -D
