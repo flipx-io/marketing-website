@@ -31,7 +31,7 @@ jobs:
 
       - run: npm install
 
-      - name: Test Code
+      - name: Puppeteer Enablement
         uses: mujo-code/puppeteer-headful@12.3.1
 
       - name: End to End Test
