@@ -29,9 +29,10 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - name: Dependencies Install
-        run: npm install
-        
+      - run: npm install
+
       - name: Test Code
         uses: mujo-code/puppeteer-headful@12.3.1
+
+      - name: End to End Test
         run: npm run test-e2e
