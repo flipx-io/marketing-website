@@ -10,7 +10,7 @@ const initBrowser = async() => {
   let browser = await puppeteer.launch({
     args: ['--no-sandbox'],
     executablePath: process.env.CI === true ? process.env.PUPPETEER_EXEC_PATH : "",
-    headless: false,
+    headless: process.env.CI === true ? true : false,
     devtools: false
   });
 
