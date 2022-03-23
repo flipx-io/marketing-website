@@ -1,6 +1,6 @@
 const assert = require('assert');
 const { Given, When, Then } = require('@cucumber/cucumber');
-const helpers = require("./helpers")
+// const helpers = require("./helpers")
 const puppeteer = require('puppeteer');
 const scope = require('../support/scope');
 
