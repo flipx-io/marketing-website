@@ -6,10 +6,33 @@ on:
 jobs:
   ui-test:
     runs-on: ubuntu-latest
+    env:
+      PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
+      CI: 'true'
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
-      - run: npm install --verbose
-      - run: npm run test-e2e
+
+      - name: Caching nodeJS
+        uses: actions/cache@v2
+        id: npm-cache
+        with:
+          path: | 
+            ~/.npm
+            ./node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - run: npm ci --ignore-scripts
+
+      - name: Puppeteer Enablement
+        uses: mujo-code/puppeteer-headful@12.3.1
+
+      - name: End to End Test
+        run: npm run test-e2e

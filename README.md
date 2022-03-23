@@ -1,5 +1,6 @@
 # Marketing Website
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+[![Tests](https://github.com/flipx-io/marketing-website/actions/workflows/test.yaml/badge.svg)](https://github.com/flipx-io/marketing-website/actions/workflows/test.yaml)
 
 <p align="center">The marketing website for Flip<sup>x</sup></p>
 
