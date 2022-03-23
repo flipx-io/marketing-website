@@ -29,7 +29,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-      - run: npm ci --only=production --ignore-scripts
+      - run: npm ci --ignore-scripts
 
       - name: Puppeteer Enablement
         uses: mujo-code/puppeteer-headful@12.3.1
