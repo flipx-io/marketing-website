@@ -32,7 +32,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test-e2e": "./node_modules/.bin/cucumber-js tests/ --exit",
+    "test-e2e": "./node_modules/.bin/cucumber-js test/ --exit",
     "eject": "react-scripts eject",
     "prepare": "husky install"
   },
@@ -53,10 +53,11 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
-    "@cucumber/cucumber": "^7.3.2",
-    "puppeteer": "^13.5.1",
     "@commitlint/config-conventional": "^11.0.0",
+    "@cucumber/cucumber": "^7.3.2",
+    "chromedriver": "^99.0.0",
     "husky": "^7.0.4",
+    "puppeteer": "^13.5.1",
     "standard-version": "^9.0.0"
   }
 }

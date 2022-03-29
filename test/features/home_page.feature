@@ -1,7 +1,6 @@
-Feature: Does the homepage have access to a state, openModal, and closeModal?
-  Homepage needs a state, openModal, and closeModal Feature
+Feature: Loads Application
+  As a user I want to be able to load the webpage
 
-  Scenario: Home initializes state with property videoModalActive as false
-    Given a state object state
-    When state is initialized
-    Then state videoModalActive should be false
+  Scenario: Successfully load application
+    Given I am on the homepage
+    # Then I should be on the 'homepage' page
