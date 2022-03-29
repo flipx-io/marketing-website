@@ -33,11 +33,12 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y libgbm1
+          sudo sysctl -w kernel.unprivileged_userns_clone=1
 
       - run: npm install --ignore-scripts
 
-      # - name: Puppeteer Enablement
-      #   uses: mujo-code/puppeteer-headful@v2
+      - name: Puppeteer Enablement
+        uses: mujo-code/puppeteer-headful@v2
 
       - name: End to End Test
         run: npm run test-e2e
