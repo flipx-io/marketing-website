@@ -45,8 +45,8 @@ jobs:
           chromedriver --url-base=/wd/hub &
           sudo Xvfb -ac :99 -screen 0 1280x1024x24 > /dev/null 2>&1 & # optional
 
-      - name: Puppeteer Enablement
-        uses: mujo-code/puppeteer-headful@v2
+      # - name: Puppeteer Enablement
+      #   uses: mujo-code/puppeteer-headful@v2
 
       - name: End to End Test
         run: npm run test-e2e
