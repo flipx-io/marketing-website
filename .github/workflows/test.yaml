@@ -36,8 +36,8 @@ jobs:
 
       - run: npm install --ignore-scripts
 
-      - name: Puppeteer Enablement
-        uses: mujo-code/puppeteer-headful@12.3.1
+      # - name: Puppeteer Enablement
+      #   uses: mujo-code/puppeteer-headful@v2
 
       - name: End to End Test
         run: npm run test-e2e
